@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0;padding:0; list-style:none; font-family:'微软雅黑';}
+html{ font-size:20px;}
+body{ background:#fff; height:100%;}
+/*404页面*/
+.con_error{ width:8.2rem; height:5.8rem; position:absolute;left:50%; top:50%; margin:-2.9rem 0 0 -4.1rem; }
+.con_error img{ width:100%; }
+/*500页面*/
+.con_sv{ width:10rem; height:6.6rem; position:absolute;left:50%; top:50%; margin:-3.3rem 0 0 -5rem; }
+.con_sv img{ width:100%; }
+/*活动过期页面*/
+.con_old{width:100%;overflow:hidden;background:url(../img/expiry_odd.jpg) no-repeat; background-size:cover;}
+/*抽奖成功页面*/
+.con_suc{width:100%;overflow:hidden;background:url(../img/expiry_suc.jpg) no-repeat center bottom; background-size:contain;}
+.con_suc .logo{ width:2.88rem; text-align:center; margin:2.9rem auto 3rem;}
+.con_suc .logo img{ width:100%;}
+.con_suc h2{ font-size:0.8rem; color:#c7272f; text-align:center;}
+
+/*抽奖码已被使用页面*/
+.con_used{width:100%;overflow:hidden;background:url(../img/expiry_used.jpg) no-repeat center bottom; background-size:contain;}
+.con_used .logo{ width:2.88rem; text-align:center; margin:1rem auto 0;}
+.con_used .logo img{ width:100%;}
+/*活动介绍页面*/
+.con_intr{width:100%; background:url(../img/introduction.jpg) no-repeat center top #ed5f97; background-size:contain;}
+.con_intr .detail{ padding:13rem 0.4rem 2rem;}
+.con_intr .detail span{ margin:0 auto 0.3rem; display:block; height:1.08rem; width:3.74rem; padding-left:0.56rem; background:#fff; font-size:0.6rem; color:#ed5f97; font-weight:bold; line-height:1.08rem; box-shadow:#666 0px 0.07rem 0.2rem;}
+.con_intr .detail span i{ float:right; margin:0.44rem 0.44rem 0 0;display:block;height:0.36rem; width:0.6rem; background:url(../img/introduction_up.jpg) no-repeat;background-size:cover;}
+.con_intr .detail p{ color:#fff; font-size:0.48rem; line-height:0.7rem; padding:0.05rem 0;}
+.con_intr .detail p a{ text-decoration:underline; color:#fce98a;font-size:0.56rem;}
+.con_intr .addr{ padding-left:0.4rem; padding-top:4.5rem;width:6.65rem;}
+.con_intr .addr p{ color:#a7a7a7; font-size:0.56rem; line-height:1rem;}
+
+
+
+
+
+
+
+
+
